@@ -5,6 +5,7 @@ import Example from '@/components/Example';
 import DangerButton from '@/components/DangerButton';
 import Checkbox from '@/components/Checkbox';
 import NavLink from '@/components/NavLink';
+import CatImage from '@/components/CatImage';
 
 export default function Search({ auth }) {
     return (
@@ -18,7 +19,7 @@ export default function Search({ auth }) {
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div className="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                         <div className="p-6 text-gray-900 dark:text-gray-100">
-                            Search...
+                            <CatImage></CatImage>
                         </div>
                     </div>
                 </div>

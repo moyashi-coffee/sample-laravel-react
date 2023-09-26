@@ -5,6 +5,8 @@ import Example from '@/components/Example';
 import DangerButton from '@/components/DangerButton';
 import Checkbox from '@/components/Checkbox';
 import NavLink from '@/components/NavLink';
+import CatImage from '@/components/CatImage';
+// import RandomCat from '@/components/RandomCat'
 
 export default function Dashboard({ auth }) {
     return (
